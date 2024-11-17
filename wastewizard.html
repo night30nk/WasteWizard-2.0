@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Waste Wizard</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+        header {
+            background-color: #1b615b;
+            color: white;
+            text-align: center;
+            padding: 1em;
+        }
+
+        section {
+            padding: 2em;
+            text-align: center;
+        }
+
+        #logo {
+            max-width: 100%;
+            height: auto;
+        }
+
+        #upload-container {
+            margin-top: 20px;
+        }
+
+        #points {
+            margin-top: 20px;
+            font-size: 18px;
+            margin-bottom: 50px;
+        }
+
+        footer {
+            background-color:#1b615b;
+            color: white;
+            text-align: center;
+            padding: 1em;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .img_class 
+        {
+            display: inline;
+            text-align: center;
+        }
+
+        .image_container{
+            margin-top: 25px;
+            margin-right: 25px;
+            display: flex;
+            align-items: center;
+            text-align: right;
+            /* background: url('bg image.jpg') no-repeat center center fixed;
+            background-size: cover; */
+            
+        }
+        h1{
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            margin-left: 50px;
+            font-size: 70px;
+            text-align: left;
+            display: inline;
+            margin-right: auto;
+            color: white;
+        }
+        body{
+            background: url('images/bg\ image.jpg') no-repeat center center fixed;
+            background-size: cover;
+        }
+
+        section{
+            margin-top: 80px;
+            background-color: white;
+        }
+
+        nav{
+            background-color:#f0f0f0;
+            margin-top: 10px;
+            display: flex;
+            justify-content: space-between;
+            text-align: center;
+            padding: 1em;
+            padding-left: 10em;
+            padding-right: 10em;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: black;
+            margin: 0 1em;
+        }
+        h2{
+            font-size: 20px;
+        }
+
+        .logo-container {
+            display: flex;
+            align-items: center;
+        }
+
+        .logo-text {
+            display: block;
+            margin-left: auto; /* Adjust the margin as needed for spacing */
+            font-size: 16px; /* Adjust the font size as needed */
+            text-align: center;
+        }
+        .aim {
+            background-color: rgb(158, 237, 237);
+            padding: 1em; 
+        }
+
+        .reviews {
+            align-items: center;
+            display: flex;
+        }
+
+        .written {
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            padding : 0cm;
+            text-align: center;
+            font-size: 30px;
+            color: black;
+            background-color:rgb(158, 237, 237);
+            margin-bottom: 2.5em;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+       <div class="logo_container">
+        <img class ="img_class" src="images/image class.jpg" alt="Waste Wizard Logo" height="50">
+        <span class="logo-text">Waste Wizard</span>
+
+        <nav>
+            <a href="#"><b>Home</b></a>
+            <a href="Exploremore.html"target = "_self"><b>Explore more</b></a>
+            <a href="about.html"target = "_self"><b>About</b></a>
+            <a href="nearbystations.html"target = "_self"><b>Nearby Stations</b></a>
+            <a href="contactus.html"target = "_self"><b>Contacts</b></a>
+        </nav>
+       </div>
+    </header>
+
+
+    <div class="image_container">
+        <h1> 
+            MODERN <br> WAYS OF <br>
+            WASTE <br> SOLUTIONS 
+        </h1>
+        <!-- <img src="side image.png" alt="wastes" height = "500" /> -->
+    </div>
+
+<pre>
+
+</pre>
+
+    <section>
+        <p><u>Waste Management</u> or waste dispossal includes the process and actions required to manage wastes from its inception to initial 
+            disposal. This includes the collection, transport, treatment, and disposal of waste, together with monitoring and regulation
+            of the waste management process and waste-related laws, technologies, and economic mechanisms. </p>
+        <br>
+        <p>Waste can be solid, liquid, or gases and each type has different methods of disposal and management. We here deals 
+            with all types of waste, including industrial, biological, household, municipal, organic, biomedical, and radioactive wastes. 
+            In some cases, <u>waste can pose a threat to human health</u> which is the most common reason of us in collecting waste and recycling it in a best way.
+            Health issues are associated with the entire process of waste management.</p>
+        <br>
+        <div class = "aim"><p><B>
+            Our AIM OF WASTE MANAGEMENT is to reduce the dangerous effects of such waste on the environment and human health. 
+            </B></p>
+        </div>
+        <br>
+        <p>Here, we are initiating as a helping hand in this world towards waste and this website is helping in a friendly manner
+            which can be used easily either by teenagers or adults.
+            You just have to collect all the wastes from your house or industries or from anywhere and have to dump in our nearby stations.
+            Something without a reward is useless, so don't worry everytime you dump your waste, JUST CLICK A PICTURE OF IT. And upload your 
+            photo while doing it on our website and then you will get a point.
+            When you will cross 100 points then, you will get an excting rewards from WASTE WIZARD.
+        </p>
+
+        <h2>Upload Your Recycling Photo</h2>
+        <p> Here, you have to upload your recent waste dumped in your nearby area.</p>
+        <p>Get 1 point for every photo you upload!</p>
+
+        <div id="upload-container">
+            <!-- Add your upload form here -->
+            <input type="file" accept="image/*" />
+            <button>Upload</button>
+        </div>
+
+        <div id="points">
+            <p>Your Total Points: <span id="total-points">0</span></p>
+            <p>Get a gift voucher at 100 points!</p>
+        </div>
+    </section>
+
+    <div class="reviews">
+        <img src="images/teenager.jpg" alt="teenagers" height="300" />
+        <img src="images/adult.jpg" alt="adults" height="300"/>
+        <img src="images/seniorcitizen.jpg" alt="senior citizen" height="300"/>
+    </div>
+
+   <div class="written">
+    <h3> We have reviews from TEENAGERS, ADULTS and SENIOR CITIZENS.</h3> 
+   </div>
+
+
+    <footer>
+        &copy; 2023 Waste Wizard. All rights reserved.
+    </footer>
+
+</body>
+</html>
